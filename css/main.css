@@ -1,0 +1,105 @@
+body {
+    background : #888;
+}
+
+.flag-outline {
+    position         : absolute;
+    left             : 5%;
+    top              : 5%;
+    width            : 90%;
+    padding-bottom   : 45%;
+    background-color : #00247D;
+    overflow         : hidden;
+}
+
+.white-horizontal {
+    position         : absolute;
+    width            : 100%;
+    margin-top       : 16.670%;
+    padding-bottom   : 16.67%;
+    background-color : #FFF;
+}
+
+.white-vertical {
+    position         : absolute;
+    width            : 100%;
+    margin-top       : 16.670%;
+    padding-bottom   : 16.67%;
+    background-color : #FFF;
+    transform        : rotate(90deg);
+}
+
+.white-diagonal-tlbr {
+    position         : absolute;
+    width            : 100%;
+    margin-top       : 20.0%;
+    padding-bottom   : 10.0%;
+    background-color : #FFF;
+    transform        : rotate(26.565deg) scaleX(2.236);
+}
+
+.white-diagonal-bltr {
+    position         : absolute;
+    width            : 100%;
+    margin-top       : 20%;
+    padding-bottom   : 10%;
+    background-color : #FFF;
+    transform        : rotate(-26.565deg) scaleX(2.236);
+}
+
+.red-horizontal {
+    position         : absolute;
+    width            : 100%;
+    margin-top       : 20.00%;
+    padding-bottom   : 10.00%;
+    background-color : #CF142B;
+}
+
+.red-vertical {
+    position         : absolute;
+    width            : 100%;
+    margin-top       : 3.33%;
+    padding-bottom   : 10.00%;
+    background-color : #CF142B;
+    transform        : rotate(90deg);
+}
+
+.red-diagonal-top-left {
+    position         : absolute;
+    width            : 50%;
+    margin-top       : 23.33%;
+    margin-left      : 25%;
+    padding-bottom   : 3.33%;
+    background-color : #CF142B;
+    transform        : rotate(26.565deg) translate(-59%, 50%)  scaleX(1.18);
+}
+
+.red-diagonal-top-right {
+    position         : absolute;
+    width            : 50%;
+    margin-top       : 23.33%;
+    margin-left      : 25%;
+    padding-bottom   : 3.33%;
+    background-color : #CF142B;
+    transform        : rotate(-26.565deg) translate(59%, -50%)  scaleX(1.18);
+}
+
+.red-diagonal-bottom-left {
+    position         : absolute;
+    width            : 50%;
+    margin-top       : 23.33%;
+    margin-left      : 25%;
+    padding-bottom   : 3.33%;
+    background-color : #CF142B;
+    transform        : rotate(-26.565deg) translate(-59%, 50%)  scaleX(1.18);
+}
+
+.red-diagonal-bottom-right {
+    position         : absolute;
+    width            : 50%;
+    margin-top       : 23.33%;
+    margin-left      : 25%;
+    padding-bottom   : 3.33%;
+    background-color : #CF142B;
+    transform        : rotate(26.565deg) translate(59%, -50%)  scaleX(1.18);
+}
